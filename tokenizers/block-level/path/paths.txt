@@ -1,0 +1,2 @@
+/home/gesad/SourcererCC/SourcererCC-2.0/tokenizers/block-level/path/index_arquives.zip
+/home/gesad/SourcererCC/SourcererCC-2.0/tokenizers/block-level/path/search_arquives.zip

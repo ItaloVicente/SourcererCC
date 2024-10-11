@@ -1,0 +1,65 @@
+[INFO] (MainThread) Process 0 starting
+[INFO] (MainThread) Starting zip project <11,/home/gesad/SourcererCC/SourcererCC-2.0/tokenizers/block-level/path/search_arquives.zip> (process 0)
+[INFO] (MainThread) Attempting to process_zip_ball /home/gesad/SourcererCC/SourcererCC-2.0/tokenizers/block-level/path/search_arquives.zip
+[INFO] (MainThread) Attempting to process_file_contents /home/gesad/SourcererCC/SourcererCC-2.0/tokenizers/block-level/path/search_arquives.zip/search_arquives/clone2.java
+[INFO] (MainThread) Starting tokenize_blocks of /home/gesad/SourcererCC/SourcererCC-2.0/tokenizers/block-level/path/search_arquives.zip/search_arquives/clone2.java
+[INFO] (MainThread) Starting block-level parsing on /home/gesad/SourcererCC/SourcererCC-2.0/tokenizers/block-level/path/search_arquives.zip/search_arquives/clone2.java
+[WARNING] (MainThread) File /home/gesad/SourcererCC/SourcererCC-2.0/tokenizers/block-level/path/search_arquives.zip/search_arquives/clone2.java successfully parsed.
+[INFO] (MainThread) Error on tokenize_blocks (3) (file,exception,input) (/home/gesad/SourcererCC/SourcererCC-2.0/tokenizers/block-level/path/search_arquives.zip/search_arquives/clone2.java,Unicode-objects must be encoded before hashing,public class Example2Clone {
+    public static void main(String[] args) {
+        int a = 3;
+        int b = 7;
+        int result = multiply(a, b);
+        System.out.println(result);
+    }
+    public static int multiply(int x, int y) {
+        return x * y;
+    }
+})
+[INFO] (MainThread) Error on tokenize_blocks (3) (file,exception,input) (/home/gesad/SourcererCC/SourcererCC-2.0/tokenizers/block-level/path/search_arquives.zip/search_arquives/clone2.java,Unicode-objects must be encoded before hashing,public class Example2Clone {
+    public static void main(String[] args) {
+        int a = 3;
+        int b = 7;
+        int result = multiply(a, b);
+        System.out.println(result);
+    }
+    public static int multiply(int x, int y) {
+        return x * y;
+    }
+})
+[WARNING] (MainThread) Finished step1 on process_file_contents
+[WARNING] (MainThread) Finished step2 on process_file_contents
+[INFO] (MainThread) Successfully ran process_file_contents /home/gesad/SourcererCC/SourcererCC-2.0/tokenizers/block-level/path/search_arquives.zip/search_arquives/clone2.java
+[INFO] (MainThread) Attempting to process_file_contents /home/gesad/SourcererCC/SourcererCC-2.0/tokenizers/block-level/path/search_arquives.zip/search_arquives/clone1.java
+[INFO] (MainThread) Starting tokenize_blocks of /home/gesad/SourcererCC/SourcererCC-2.0/tokenizers/block-level/path/search_arquives.zip/search_arquives/clone1.java
+[INFO] (MainThread) Starting block-level parsing on /home/gesad/SourcererCC/SourcererCC-2.0/tokenizers/block-level/path/search_arquives.zip/search_arquives/clone1.java
+[WARNING] (MainThread) File /home/gesad/SourcererCC/SourcererCC-2.0/tokenizers/block-level/path/search_arquives.zip/search_arquives/clone1.java successfully parsed.
+[INFO] (MainThread) Error on tokenize_blocks (3) (file,exception,input) (/home/gesad/SourcererCC/SourcererCC-2.0/tokenizers/block-level/path/search_arquives.zip/search_arquives/clone1.java,Unicode-objects must be encoded before hashing,public class Example1Clone {
+    public static void main(String[] args) {
+        int a = 5;
+        int b = 10;
+        int sum = add(a, b);
+        System.out.println(sum);
+    }
+    public static int add(int x, int y) {
+        return x + y;
+    }
+})
+[INFO] (MainThread) Error on tokenize_blocks (3) (file,exception,input) (/home/gesad/SourcererCC/SourcererCC-2.0/tokenizers/block-level/path/search_arquives.zip/search_arquives/clone1.java,Unicode-objects must be encoded before hashing,public class Example1Clone {
+    public static void main(String[] args) {
+        int a = 5;
+        int b = 10;
+        int sum = add(a, b);
+        System.out.println(sum);
+    }
+    public static int add(int x, int y) {
+        return x + y;
+    }
+})
+[WARNING] (MainThread) Finished step1 on process_file_contents
+[WARNING] (MainThread) Finished step2 on process_file_contents
+[INFO] (MainThread) Successfully ran process_file_contents /home/gesad/SourcererCC/SourcererCC-2.0/tokenizers/block-level/path/search_arquives.zip/search_arquives/clone1.java
+[INFO] (MainThread) Successfully ran process_zip_ball /home/gesad/SourcererCC/SourcererCC-2.0/tokenizers/block-level/path/search_arquives.zip
+[INFO] (MainThread) Project finished <11,/home/gesad/SourcererCC/SourcererCC-2.0/tokenizers/block-level/path/search_arquives.zip> (process 0)
+[INFO] (MainThread)  (0): Total: 0:00:00.006764micros | Zip: 159 Read: 105 Separators: 35micros Tokens: 28micros Write: 20micros Hash: 77 regex: 90
+[INFO] (MainThread) Process 0 finished. 2 files in 0s.
